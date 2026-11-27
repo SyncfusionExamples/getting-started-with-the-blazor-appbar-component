@@ -7,7 +7,7 @@ This sample demonstrates how to integrate and customize the Syncfusion [Blazor A
 ## Key Features
 
 - Uses the `SfAppBar` component to create the application toolbar.
-- Configures AppBar appearance with `ColorMode`and positions the AppBar using `Position`.
+- Configures AppBar appearance with `ColorMode` and positions the AppBar using `Position`.
 - Integrates Syncfusion buttons through the `SfButton` component.
 - Displays a menu button using `IconCss="e-icons e-menu"`.
 - Uses `AppBarSpacer` to align content within the AppBar.
@@ -18,7 +18,7 @@ This sample demonstrates how to integrate and customize the Syncfusion [Blazor A
 - Includes external navigation links for Demos, Forums, and Upgrade Guide resources.
 - Embeds a search input element inside the AppBar layout.
 - Demonstrates custom styling through the `ralign` and `prominent-appbar` CSS classes.
-- Includes optional prominent AppBar configuration through the commented `Mode="AppBarMode.Prominent` setting.
+- Includes optional prominent AppBar configuration through the commented `Mode="AppBarMode.Prominent"` setting.
 
 ## Prerequisites
 
@@ -40,19 +40,25 @@ This sample demonstrates how to integrate and customize the Syncfusion [Blazor A
 
 1. Open the repository folder in Visual Studio Code.
 2. Open the integrated terminal.
-3. Navigate to the project directory.
+3. Navigate to the `MyBlazorApp` project directory:
+
+```bash
+cd MyBlazorApp
+```
+
+4. Restore project dependencies:
+
 ```bash
 dotnet restore
+```
+
+5. Run the application:
+
+```bash
 dotnet run
 ```
 
-4. Open the local application URL displayed in the terminal after the application starts.
-
-## Project Structure
-
-- `Pages/Index.razor` — Main sample page demonstrating the Syncfusion Blazor AppBar component, button interactions, navigation links, search input integration, layout elements, and custom styling.
-
-- `MyBlazorApp.sln` — Solution file for the sample application.
+6. Open the local application URL displayed in the terminal after the application starts.
 
 ## Support and Feedback
 
